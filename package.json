@@ -4,7 +4,9 @@
   "description": "app clase",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "prestart": "node index.js",
+    "start": "http-server -a localhost -p 3000 -c-1"
+
 },
   "author": "ivan chaves y paula delgado",
   "license": "ISC",
