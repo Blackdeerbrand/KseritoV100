@@ -9,6 +9,7 @@
   "author": "ivan chaves y paula delgado",
   "license": "ISC",
   "dependencies": {
+    "debug-log": "^1.0.1",
     "express": "^4.15.2"
   }
 }
