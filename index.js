@@ -10,3 +10,12 @@ app.get('/', function(req, res) {
 app.listen(port, function () {
     console.log('App listen in Port: ' + port);
 });
+var delog = require("debug.log");
+
+delog.log(string, [...], [level]);
+delog.warn(string, [...], [level]);
+delog.error(string, [...], [level]);
+delog.request(string, [...], [level]);
+delog.response(string, [...], [level]);
+delog.process(string, [...], [level]);
+delog.success(string, [...], [level]);
